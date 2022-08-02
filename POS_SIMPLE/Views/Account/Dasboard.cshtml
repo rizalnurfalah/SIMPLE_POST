@@ -1,0 +1,156 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Account/DasboardLayout.cshtml";
+}
+<html lang="en">
+<head>
+    <title>Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container d-flex align-items-stretch">
+        <nav id="sidebar" class="img" style="background-image: url('../../Template/Dashboard/images/bg_1.jpg');">
+            <div class="p-4">
+                <h1><a href="index.html" class="logo">Hallo Admin <span style="font-size:15px">Ganeshcom Studio</span></a></h1>
+                <ul class="list-unstyled components mb-5">
+                    <li class="active">
+                        <a href="#"><span class="fa fa-home mr-3"></span> Home</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="fa fa-user mr-3"></span> About</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="fa fa-plane mr-3"></span> Destination</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="fa fa-sticky-note mr-3"></span> Blog</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="fa fa-cogs mr-3"></span> Services</a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="fa fa-paper-plane mr-3"></span> Contacts</a>
+                    </li>
+                </ul>
+                <div class="mb-5">
+                    <img src="~/Template/Dashboard/images/logo.png" />
+                </div>
+
+                <div class="footer">
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Page Content  -->
+        <main role="main">
+            <div id="content" class="p-5 p-md-5 pt-5">
+                <div class="form-group pull-right">
+                    <h2 class="mb-4">Master Company</h2>
+                    <table class="table table-hover table-active">
+                        <thead style="background-color:#6f42c1">
+                            <tr>
+                                <th scope="col" style="color:white">NO</th>
+                                <th scope="col" style="color:white">Name</th>
+                                <th scope="col" style="color:white">Email</th>
+                                <th scope="col" style="color:white">Address</th>
+                                <th scope="col" style="color:white">Telephone</th>
+                                <th scope="col" style="color:white">Handphone</th>
+                                <th scope="col" style="color:white">Detail</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Rizal</td>
+                                <td>Rizalnurfalah7@gmail.com</td>
+                                <td>Sumedang</td>
+                                <td>(022)2012248</td>
+                                <td>081221496247</td>
+                                <td>
+                                    <a href="#" style="background-color:#6f42c1" class="btn-primary btn-sm">Detail</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Hanif</td>
+                                <td>Hanif@gmail.com</td>
+                                <td>Garut</td>
+                                <td>(022)2342841</td>
+                                <td>087321496300</td>
+                                <td>
+                                    <a href="#" style="background-color:#6f42c1" class="btn-primary btn-sm">Detail</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Raihan</td>
+                                <td>Raihan2021@gmail.com</td>
+                                <td>Padang</td>
+                                <td>(022)2342222</td>
+                                <td>083321506450</td>
+                                <td>
+                                     <a href="#" style="background-color:#6f42c1" class="btn-primary btn-sm">Detail</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h2 class="mb-4">Product</h2>
+                    <table class="table table-hover table-active">
+                        <thead style="background-color: #6f42c1">
+                            <tr>
+                                <th scope="col" style="color:white">NO</th>
+                                <th scope="col" style="color:white">Handphone</th>
+                                <th scope="col" style="color:white">Brand</th>
+                                <th scope="col" style="color:white">Price</th>
+                                <th scope="col" style="color:white">Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>IPHONE 13 PROMAX</td>
+                                <td>APPLE</td>
+                                <td>Rp.45.000.000</td>
+                                <td>
+                                    <a href="#" style="background-color:#6f42c1" class="btn-primary btn-sm">Order</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>SAMSUNG S20 ULTRA</td>
+                                <td>SAMSUNG</td>
+                                <td>Rp.30.000.000</td>
+                                <td>
+                                    <a href="#" style="background-color:#6f42c1" class="btn-primary btn-sm">Order</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>SONY XPERIA ULTRA 400</td>
+                                <td>SONY</td>
+                                <td>Rp.40.000.000</td>
+                                <td>
+                                    <a href="#" style="background-color:#6f42c1" class="btn-primary btn-sm">Order</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </div>
+</body>
+</html>
